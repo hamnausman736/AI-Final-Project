@@ -1,33 +1,41 @@
-📰 Fake News Detection
-📖 Overview
-This project focuses on detecting fake news articles using Natural Language Processing (NLP) and Machine Learning (ML) techniques. The system is trained to classify news articles as either fake or real based on their textual content.
+# 📰 Fake News Detection
 
-🛠️ Technologies Used
-Python
+## 📖 Overview  
+This project focuses on detecting fake news articles using **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques. The system is trained to classify news articles as either **fake** or **real** based on their textual content.
 
-Pandas
+---
 
-NLTK (Natural Language Toolkit)
+## 🛠️ Technologies Used  
 
-Scikit-learn
+- **Python**  
+- **Pandas**  
+- **NLTK** (Natural Language Toolkit)  
+- **Scikit-learn**  
+- **Naive Bayes Classifier**  
+- **Jupyter Notebook**  
 
-Naive Bayes Classifier
+---
 
-Jupyter Notebook
+## ✨ Features  
 
-✨ Features
-Text preprocessing:
+- **Text preprocessing:**  
+  - Cleaning text  
+  - Stopword removal  
+  - Lemmatization  
 
-Cleaning text
+- **Text vectorization using CountVectorizer**
 
-Stopword removal
+- **Model training and performance evaluation**
 
-Lemmatization
+- **Display of accuracy and classification metrics**
 
-Text vectorization using CountVectorizer
+- **Model persistence using joblib for saving and reusing trained models**
 
-Model training and performance evaluation
+---
 
-Display of accuracy and classification metrics
+## 🚀 Usage  
 
-Model persistence using joblib for saving and reusing trained models
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/fake-news-detection.git
+   cd fake-news-detection
